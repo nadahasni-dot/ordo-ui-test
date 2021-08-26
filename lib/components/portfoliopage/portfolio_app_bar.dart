@@ -26,7 +26,9 @@ class PortfolioAppBar extends StatelessWidget {
                   iconSize: 18,
                   padding: EdgeInsets.zero,
                   color: Colors.white,
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
                   icon: Icon(Icons.arrow_back),
                 ),
               ),
