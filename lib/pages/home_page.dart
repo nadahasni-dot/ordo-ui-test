@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ordo_ui_test/components/homepage/test_button.dart';
+import 'package:ordo_ui_test/pages/finansial_page.dart';
 import 'package:ordo_ui_test/pages/portfolio_page.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -61,7 +62,13 @@ class _MyHomePageState extends State<MyHomePage> {
               padding: const EdgeInsets.symmetric(horizontal: 42),
               child: TestButton(
                 text: "Test 3",
-                onClick: () {},
+                onClick: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => FinansialPage(),
+                    ),
+                  );
+                },
               ),
             ),
           ],
