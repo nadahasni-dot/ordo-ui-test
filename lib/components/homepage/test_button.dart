@@ -26,7 +26,7 @@ class TestButton extends StatelessWidget {
       ),
       child: Text(
         text,
-        style: TextStyle(fontFamily: "Poppins", fontWeight: FontWeight.w700),
+        style: TextStyle(fontFamily: "Poppins", fontWeight: FontWeight.w700, color: Colors.white),
       ),
     );
   }
