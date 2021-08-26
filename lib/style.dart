@@ -27,3 +27,14 @@ const FINANSIAL_BLUE_GRADIENT_COLOR = const LinearGradient(
     Color(0xFF096BB7),
   ],
 );
+
+// Lacak pesanan
+const LACAK_DARK_GREEN_COLOR = const Color(0xFF47623F);
+const LACAK_LIGHT_GREEN_COLOR = const Color(0xFF92D274);
+const LACAK_GREEN_GRADIENT_COLOR = const LinearGradient(
+  begin: Alignment.topRight,
+  end: Alignment.bottomLeft,
+  colors: [
+  Color(0xFF3AB648),
+  Color(0xFF526430),
+]);
