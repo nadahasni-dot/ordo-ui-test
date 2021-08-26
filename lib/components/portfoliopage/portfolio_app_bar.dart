@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ordo_ui_test/style.dart';
 
 class PortfolioAppBar extends StatelessWidget {
   const PortfolioAppBar({Key? key}) : super(key: key);
@@ -20,7 +21,7 @@ class PortfolioAppBar extends StatelessWidget {
                 padding: EdgeInsets.zero,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(30),
-                  color: Colors.black87,
+                  color: DARK_COLOR_PORTFOLIO,
                 ),
                 child: IconButton(
                   iconSize: 18,
@@ -36,7 +37,7 @@ class PortfolioAppBar extends StatelessWidget {
               Text(
                 "PORTFOLIO VENDOR",
                 style: TextStyle(
-                  color: Colors.black87,
+                  color: DARK_COLOR_PORTFOLIO,
                   fontFamily: "Poppins",
                   fontSize: 16,
                   fontWeight: FontWeight.w700,
@@ -46,6 +47,7 @@ class PortfolioAppBar extends StatelessWidget {
           ),
           Icon(
             Icons.notifications_rounded,
+            color: DARK_COLOR_PORTFOLIO,
             size: 24,
           )
         ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ordo_ui_test/style.dart';
 
 class PortfolioGridItem extends StatelessWidget {
   const PortfolioGridItem({
@@ -36,7 +37,7 @@ class PortfolioGridItem extends StatelessWidget {
                     vertical: 2,
                   ),
                   decoration: BoxDecoration(
-                    color: Colors.black87.withOpacity(0.5),
+                    gradient: DARK_GRADIENT,
                     borderRadius: BorderRadius.circular(16),
                   ),
                   child: Row(
@@ -70,7 +71,7 @@ class PortfolioGridItem extends StatelessWidget {
                     vertical: 6,
                   ),
                   decoration: BoxDecoration(
-                    color: Colors.black87.withOpacity(0.5),
+                    color: Colors.black87.withOpacity(0.4),
                   ),
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.center,

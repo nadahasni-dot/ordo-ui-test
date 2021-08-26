@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ordo_ui_test/style.dart';
 
 class ProfileDescription extends StatelessWidget {
   const ProfileDescription({Key? key}) : super(key: key);
@@ -14,12 +15,12 @@ class ProfileDescription extends StatelessWidget {
             "Dina Florist",
             textAlign: TextAlign.left,
             style:
-                TextStyle(fontFamily: "Poppins", fontWeight: FontWeight.w600),
+                TextStyle(fontFamily: "Poppins", fontWeight: FontWeight.w600, color: DARK_TEXT_COLOR_PORTFOLIO),
           ),
           Text(
             "Toko Bunga terbaik se Indonesia Raya \nHarga Murah Produk Berkualitas",
             textAlign: TextAlign.left,
-            style: TextStyle(fontFamily: "Poppins"),
+            style: TextStyle(fontFamily: "Poppins", color: DARK_TEXT_COLOR_PORTFOLIO),
           ),
           SizedBox(height: 8),
           OutlinedButton(
@@ -30,7 +31,7 @@ class ProfileDescription extends StatelessWidget {
                   fontFamily: "Poppins",
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
-                  color: Colors.black87),
+                  color: DARK_TEXT_COLOR_PORTFOLIO),
             ),
             style: ButtonStyle(
               elevation: MaterialStateProperty.all(0),

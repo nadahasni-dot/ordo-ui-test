@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ordo_ui_test/style.dart';
 
 class PortfolioStat extends StatelessWidget {
   const PortfolioStat({
@@ -18,14 +19,15 @@ class PortfolioStat extends StatelessWidget {
           Text(
             stat,
             style: TextStyle(
-              fontFamily: "Poppins",
-              fontSize: 18,
-              fontWeight: FontWeight.w600,
-            ),
+                fontFamily: "Poppins",
+                fontSize: 18,
+                fontWeight: FontWeight.w600,
+                color: DARK_TEXT_COLOR_PORTFOLIO),
           ),
           Text(
             label,
-            style: TextStyle(fontFamily: "Poppins"),
+            style: TextStyle(
+                fontFamily: "Poppins", color: DARK_TEXT_COLOR_PORTFOLIO),
           ),
         ],
       ),
