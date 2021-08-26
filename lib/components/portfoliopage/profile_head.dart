@@ -33,9 +33,9 @@ class ProfileWidget extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                PortfolioStat(label: "Rating", stat: 5.0),
-                PortfolioStat(label: "Review", stat: 100),
-                PortfolioStat(label: "Pesanan", stat: 162),
+                PortfolioStat(label: "Rating", stat: "5.0"),
+                PortfolioStat(label: "Review", stat: "100"),
+                PortfolioStat(label: "Pesanan", stat: "162"),
               ],
             ),
           )

@@ -8,7 +8,7 @@ class PortfolioStat extends StatelessWidget {
   }) : super(key: key);
 
   final String label;
-  final double stat;
+  final String stat;
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class PortfolioStat extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            stat.toString(),
+            stat,
             style: TextStyle(
               fontFamily: "Poppins",
               fontSize: 18,
