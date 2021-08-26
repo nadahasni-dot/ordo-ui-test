@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:ordo_ui_test/style.dart';
 
 class PortfolioAppBar extends StatelessWidget {
@@ -30,7 +31,7 @@ class PortfolioAppBar extends StatelessWidget {
                   onPressed: () {
                     Navigator.pop(context);
                   },
-                  icon: Icon(Icons.arrow_back),
+                  icon: SvgPicture.asset("assets/icons/arrow-back.svg"),
                 ),
               ),
               SizedBox(width: 16),
